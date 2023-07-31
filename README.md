@@ -20,13 +20,13 @@ The ng-stepper is a simple wizard/stepper component for Angular which is built o
 #### NPM
 ```shell
 npm i @angular/cdk
-npm i angular-ng-stepper
+npm i nx-stepper
 ```
 ### Step 3: Import the CdkStepperModule:
 ### Step 4: Import the NgStepperModule:
 ```js
 import {CdkStepperModule} from '@angular/cdk/stepper';
-import {NgStepperModule} from 'ng-stepper';
+import {NgStepperModule} from 'nx-stepper';
 
 @NgModule({
   declarations: [AppComponent],
